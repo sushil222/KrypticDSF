@@ -1,0 +1,126 @@
+.match__item{
+    background-color: white;
+    height: 530px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.img_under{
+    background-image: url("../../../../images/dot.png");
+    background-position: left bottom;
+    background-repeat: repeat;
+    padding: 15px;
+    position: absolute;
+    height: 545px;
+    width: 420px;
+    top: 0%;
+    left: 0%;
+}
+.first_text{
+    padding: 15px;
+    position: absolute;
+    top: 38%;
+    left: 472px;
+    cursor: default;
+}
+.first_text h6 , .second_text h6{
+    color: #8c8c8c;
+    font-weight: normal;
+    margin-bottom: 0rem;
+    
+}
+.first_text h2 , .second_text h2{
+    color: #0d0d0d;
+    margin-bottom: 0rem;
+    
+}
+.first_text :hover{
+    color: #f29f00;
+    cursor: pointer;
+    transition: color .2s ease-out;
+}
+.item__one{
+    background-image: url("../../../../images/romans-img.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    padding: 15px;
+    position: absolute;
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    top: 8%;
+    left: 30%;
+    
+}
+.item__two{
+    padding: 15px;
+    position: absolute;
+    top: 0%;
+    text-align: center;
+    left: 654px;
+    font-size: 290px;
+    font-weight: bold;
+    color: #f4f4f5;
+}
+
+.second_text{
+    padding: 15px;
+    position: absolute;
+    top: 38%;
+    right: 472px;
+    cursor: default;
+}
+.second_text :hover{
+    color: #f29f00;
+    cursor: pointer;
+    transition: color .2s ease-out;
+}
+.img_under_two{
+    background-image: url("../../../../images/dot.png");
+    background-position: right bottom;
+    background-repeat: repeat;
+    padding: 15px;
+    position: absolute;
+    height: 545px;
+    width: 420px;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    
+}
+.item__three{
+    background-image: url("../../../../images/titans-img.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    padding: 15px;
+    position: absolute;
+    height: 400px;
+    width: 350px;
+    position: absolute;
+    top: 8%;
+    right: 30%;
+}
+.timer {
+    padding: 15px;
+    position: absolute;
+    top: 33%;
+    left: 180px;
+    font-size: 95px;
+    color: #0d0d0d;
+}
+.viewport_one{
+    position: absolute;
+    top: 55%;
+    left: -75px;
+    width: 80px;
+    border-bottom: 1px solid #8c8c8c;
+}
+.viewport_two{
+    position: absolute;
+    top: 55%;
+    right: -70px;
+    width: 80px;
+    border-bottom: 1px solid #8c8c8c;
+}

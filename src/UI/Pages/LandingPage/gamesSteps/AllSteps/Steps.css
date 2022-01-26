@@ -1,0 +1,143 @@
+.jss620 {
+    background-color: #0d0e18;
+}
+.jss234 {
+    justify-content: center;
+}
+.jss217 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.jss621 {
+    color: white;
+    padding: 30px 10px;
+    max-width: 100%;
+    text-align: center;
+}
+.jss225 {
+    align-items: center;
+}
+.jss220 {
+    flex-direction: column;
+    text-align: center;
+}
+.jss624 {
+    max-width: 520px;
+    font-size: calc(24px + (40 - 24) * ((100vw - 375px) / (2000 - 375)));
+    line-height: 27px;
+    font-weight: 700;
+}
+.jss238 {
+    width: calc(100% + 8px);
+    margin: -4px;
+    margin-top: 15px;
+}
+
+.jss238 > .jss218 {
+    padding: 4px;
+    width: 33%;
+}
+.jss218 {
+    flex: 0 0 auto;
+    margin: 0;
+    box-sizing: border-box;
+}
+.jss757 {
+    width: 65%;
+    margin: 0 auto;
+    height: 400px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #FBAE17;
+    cursor: default;
+}
+.jss758 {
+    height: 100%;
+}
+.jss220 {
+    flex-direction: column;
+}
+.jss758 h5 {
+    color: #0d0e18;
+    margin: 0;
+    font-size: calc(17px + (21 - 17) * ((100vw - 375px) / (2000 - 375)));
+    font-weight: 400;
+}
+.jss759 {
+    flex: 1;
+    width: 100%;
+    margin: 0 auto;
+}
+.jss234 {
+    justify-content: center;
+}
+.jss246 {
+    max-width: 25.33333%;
+    flex-basis: 25.33333%;
+}
+.jss760 {
+    padding: 6px !important;
+}
+.jss761.selected {
+    border-radius: 5px;
+    background-color: #FBAE17;
+}
+.jss761 {
+    margin: 0px auto;
+    padding: 15px 6px 15px 6px;
+    display: flex;
+    max-width: 80px;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #0d0e18;
+}
+.jss761 .sport_Icon , .sport_Icon {
+  width: 50px;
+  height: 50px;
+  color: white;
+}
+.jss761 .sport_Icon:hover{
+    color: #0d0e18;
+}
+.jss761:hover{
+    background-color: white;
+}
+.sport_btn{
+    margin: 80px 0px 20px;
+}
+.jss557 {
+    color: #25282c;
+    padding: 15px 50px;
+    font-size: calc(16px + (17 - 16) * ((100vw - 375px) / (2000 - 375)));
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #FBAE17;
+}
+.jss557:hover {
+    color: #0d0e18;
+    background-color: #da9409;
+}
+.pick_btn{
+    color: white;
+    background-color:  #0d0e18;
+}
+.pick_btn:hover{
+    color: #0d0e18;
+    background-color: white;
+}
+
+.contest_one {
+    max-width: 104.33333%;
+    flex-basis: 104.33333%;
+}
+
+.btn_dsgn{
+    margin: 0px;
+    font-size: 50px;
+    color: #25282c;
+}

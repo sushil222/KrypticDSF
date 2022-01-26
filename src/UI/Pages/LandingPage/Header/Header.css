@@ -1,0 +1,129 @@
+.headContainer{
+  display: flex;
+  justify-content: space-around;
+  background-color: #0d0e18;
+}
+.topLogo{
+  float: left;
+  position: relative;
+}
+.topLogo p {
+  color: #cc8000;
+  font-size: 23px;
+  font-weight: bold;
+  position: absolute;
+  top: 17px;
+  left: 39px;
+  background: -webkit-linear-gradient(#fea700, #985400);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.mainNav{
+  float: left;
+}
+.name_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0d0e18;
+  margin-right: 0px;
+}
+.name_list li {
+  float: left;
+  line-height: 3.1;
+}
+
+.name_list li a {
+  display: inline;
+  color: #747794;
+  text-align: center;
+  padding: 18px 18px;
+  text-decoration: none;
+}
+
+.name_list li a:hover:not(.active) {
+  background-color: #f29f00;
+  color: white;
+}
+
+.name_list li a.active {
+  color: white;
+  background-color: #f29f00;
+}
+.second_List li a{
+  background-color: #0d0e18;
+  color: #f29f00;
+}
+.second_List li a:hover{
+  color: white !important;
+}
+
+.rightside{
+  float: right;
+}
+.imglogo{
+  height: 40px;
+  width: 40px;
+  margin-top: 4px;
+}
+.uldiv{
+  display: block;
+  margin: 0 auto;
+  list-style-type: none;
+  margin: 0px 0px 0px 370px;;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f29f00;
+}
+.uldiv li {
+  float: left;
+}
+.uldiv li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.uldiv li a:hover:not(.active) {
+  background-color: #0d0e18;
+  color: #f29f00;
+}
+
+.uldiv li a.active {
+  color: white;
+  background-color: #04AA6D;
+}
+
+.divulmain{
+  background-color: #f29f00;
+}
+
+.name_list {
+  display: flex;
+}
+
+.top_bar_link li {
+  position: relative;
+}
+
+.top_bar_link li::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-0%, -50%);
+  width: 1px;
+  height: 15px;
+  background: #f29f00;
+}
+.second_List .rightside:last-child{
+  border: 1px solid #f29f00;
+}
+.second_List .rightside{
+  border-left: 1px solid #f29f00;
+}
+.top_bar_link li:last-child{
+  border-right: 0px solid white;
+}
